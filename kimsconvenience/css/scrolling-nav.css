@@ -1,0 +1,83 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ /* Kayleen's page.
+ UIUX class, Bootstrap sample file 1, CSS file */ 
+
+ 
+body {background-color: cornsilk;
+   color: black;
+   font-family: 'Galdeano', sans-serif;
+}
+h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 5rem!important;
+  
+}
+h3,
+h4,
+h5,
+h6 {font-family: 'Galdeano', sans-serif;}
+
+h2 {
+  font-family: 'Galdeano', sans-serif;
+  margin-bottom: 5%;
+}
+
+/*adding my own header color-styles. */
+
+.headerstyle {color: white;
+font-family: 'Barrio', cursive;
+font-size: 32px;
+ 
+}
+
+.headerstyle:hover {color: black;
+  font-family: 'Barrio', cursive;
+  font-size: 32px;
+ 
+}
+header {
+  padding: 154px 0 100px;
+  
+/* Add the following to  include a centered image. */
+background-image: url("http://www.academy.ca/wp-content/uploads/2016/12/Kims-Convenience-Still.png");
+
+
+ /* Center and scale the image. */
+ background-position: center;  /* This value can also be left, right */
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 350px 0 100px;
+  }
+}
+
+section {
+  padding: 100px 0;
+}
+
+.videoWrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.videoWrap iframe, 
+.videoWrap object, 
+.videoWrap embed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: 500px;
+}
+
